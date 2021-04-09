@@ -32,10 +32,4 @@ if output != "":
     else:
       output.write(ele+" ") 
     count += 1  
-else:
-  decrypt = ""
-  if count % 10 == 0:
-      decrypt += (ele+'\n')
-  else:
-      decrypt += (ele+" ") 
       
